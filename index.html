@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Figma Project</title>
+    <meta name="description" content="Product Web Site">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Inter:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="./assets/lib/Skeleton-2.0.4/css/skeleton.css">
+  <link rel="stylesheet" href="./assets/lib/animate.min.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/lib/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/lib/slick/slick-theme.css" />
+
+    <!-- <link rel="stylesheet" href="./assets/lib/Skeleton-2.0.4/css/normalize.css">
+    <link rel="stylesheet" href="./assets/lib/Skeleton-2.0.4/css/skeleton.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./assets/lib/Skeleton-2.0.4/css/swipper.css" />
+    <link rel="stylesheet" href="./assets/lib/Skeleton-2.0.4/css/animate.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="./assets/lib/fontawesome-free-6.2.1-web/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+</head>
+
+<body>
+    <!-- Start Navigation section
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- End Navigation section
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+ <section class="container u-max-full-width  u-full-width">
+    <div class="slider-container ">
+        <div class="hero-slider" id="hero-slider">
+          <div class="slider slider1 slider-bg slider-bg-img">
+            <div class="slide-content">
+              <div class="slider-text">
+                <h2 style="">Bienvenue sur le site web<span class="tagged-color-text"> borne de recharge</span></h2>
+                <h3 class="" style="">Votre solution d'installtion de bornes de recharge en suisse romande.</h3>
+              </div>
+            </div>
+          </div>
+          <div class="slider slider2 slider-bg slider-bg-img">
+            <div class="slide-content">
+              <div class="slider-text">
+                <h2 style="color:white;">Nous sommes une entreprise innovante</h2>
+                <h3 style="color:white;"  class="taged-text" style="">Spécialisée dans l'installation de bornes de recharge pour le véhicules électrique.</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-container">
+          <form action="" id="form-slider">
+            <input type="text" placeholder="Nom COMPLET" />
+            <input type="email" placeholder="EMAIL*" />
+            <input type="tel" placeholder="NUMERO TELEPHONE*" />
+            <div class="formControl">
+                <select style="display:block">
+                    <option selected>VILLE*</option>
+                    <option>Vaud</option>
+                    <option>Fribourg</option>
+                    <option>Valais</option>
+                    <option>Genève</option>
+                    <option>Neuchâtel</option>
+                    <option>Jura</option>
+                  </select>
+                  <input type="text" placeholder="Code postale" />
+            </div>
+            <select style="display:block">
+                <option selected>Marque voiture*</option>
+                <option>Mercedes</option>
+                <option>BMW</option>
+                <option>Renault ZOE</option>   
+                <option>Tesla</option>   
+                <option>Nissan</option>
+                <option>Volkswagen</option>     
+                <option>Audi</option>     
+                <option>Autre</option>     
+              </select>
+              <div class="form--installation">
+              <p>Lieux installation</p>
+               <div>
+                <label for="maison">Maison
+                    <input type="radio" checked name="installation__type" value="maison" id="maison">
+                  </label>
+                  <label for="enter">Enterprise
+                    <input type="radio" name="installation__type" value="enterprise" id="enter">
+                  </label>
+                  <label for="autre">Autre
+                    <input type="radio" name="installation__type" value="autre" id="autre">
+                  </label>
+               </div>
+            </div>
+            <button type="submit">Demande devis</button>
+            
+          </form>
+        </div>
+      
+      </div>
+ </section>
+    <!-- Modal HTML embedded directly into document -->
+    <div id="ex1" class="modal">
+        <p>Thanks for clicking. That felt good.</p>
+        <a href="#" rel="modal:close">Close</a>
+    </div>
+    <!-- End Section 6 -->
+    <!-- Remember to include jQuery :) -->
+    <script src="./assets/lib/js/jquery.min.js"></script>
+    <script src="./assets/lib/slick/slick.min.js"></script>
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
