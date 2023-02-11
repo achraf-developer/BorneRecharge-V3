@@ -13,15 +13,13 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Inter:wght@400;600;700&display=swap"
-        rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&display=swap" rel="stylesheet">
+  
+    <!-- CSS -->
 
-    <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="./assets/lib/Skeleton-2.0.4/css/skeleton.css">
   <link rel="stylesheet" href="./assets/lib/animate.min.css" />
   <link rel="stylesheet" type="text/css" href="./assets/lib/slick/slick.css" />
@@ -32,6 +30,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./assets/lib/Skeleton-2.0.4/css/swipper.css" />
     <link rel="stylesheet" href="./assets/lib/Skeleton-2.0.4/css/animate.css" /> -->
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <link rel="stylesheet" href="./assets/lib/fontawesome-free-6.2.1-web/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -52,28 +51,29 @@
           <div class="slider slider1 slider-bg slider-bg-img">
             <div class="slide-content">
               <div class="slider-text">
-                <h2 style="" class="taged-text2">Bienvenue sur le site web
-                    <p style="text-align: left;"><span class="" style="color:green; "> borne de recharge</span></h2>
-                <h3 class="taged-text" style="">Votre solution d'installtion de bornes de recharge en suisse romande.</h3>
+                <h1 style =""> <span class="taged-text2"> Bienvenue sur le site web <br/><span class="" style="color:green; text-align: center; "> borne de recharge</span></span>
+                </h1>
+                
+                <h2  style=""><span class="taged-text"> Votre solution d'installtion de bornes de recharge en suisse romande.</span></h3>
               </div>
             </div>
           </div>
           <div class="slider slider2 slider-bg slider-bg-img">
             <div class="slide-content">
               <div class="slider-text">
-                <h2 class="" style="color:black; background-color:hsla(0, 0%, 100%, 0.747)">Nous sommes une entreprise innovante</h2>
-                <h3 style="color:black; background-color: hsla(0, 0%, 100%, 0.747);">Spécialisée dans l'installation de bornes de recharge pour le véhicules électrique.</h3>
+                <h1><span  class="whiteBgFontBlack"> Nous sommes une entreprise innovante</span></h1>
+                <h2 ><span class="taged-text2" style="color:black;"> Spécialisée dans l'installation de bornes de recharge pour le véhicules électrique.</span></h2>
               </div>
             </div>
           </div>
         </div>
         <div class="form-container">
           <form action="" id="form-slider">
-            <input type="text" placeholder="Nom COMPLET" />
-            <input type="email" placeholder="EMAIL*" />
-            <input type="tel" placeholder="NUMERO TELEPHONE*" />
+            <input type="text" name="FullName" placeholder="Nom COMPLET" />
+            <input type="email" name="Email" placeholder="EMAIL*" />
+            <input type="tel" name="Phone" placeholder="NUMERO TELEPHONE*" />
             <div class="formControl">
-                <select style="display:block">
+                <select style="display:block" name="Ville">
                     <option selected>VILLE*</option>
                     <option>Vaud</option>
                     <option>Fribourg</option>
@@ -82,30 +82,30 @@
                     <option>Neuchâtel</option>
                     <option>Jura</option>
                   </select>
-                  <input type="text" placeholder="Code postale" />
+                  <input type="text" name="CodePostale" placeholder="Code postale" />
             </div>
-            <select style="display:block">
+            <select style="display:block" name="VoitureMarque">
                 <option selected>Marque voiture*</option>
-                <option>Mercedes</option>
-                <option>BMW</option>
-                <option>Renault ZOE</option>   
-                <option>Tesla</option>   
-                <option>Nissan</option>
-                <option>Volkswagen</option>     
-                <option>Audi</option>     
-                <option>Autre</option>     
+                <option value="Mercedes">Mercedes</option>
+                <option value="BMW">BMW</option>
+                <option value="Renault ZOE">Renault ZOE</option>   
+                <option value="Tesla">Tesla</option>   
+                <option value="Nissan">Nissan</option>
+                <option value="Volkswagen">Volkswagen</option>     
+                <option value="Audi">Audi</option>     
+                <option value="Autre">Autre</option>     
               </select>
               <div class="form--installation">
               <p>Lieux installation</p>
                <div>
                 <label for="maison">Maison
-                    <input type="radio" checked name="installation__type" value="maison" id="maison">
+                    <input type="radio" checked name="Installation" value="maison" id="maison">
                   </label>
                   <label for="enter">Enterprise
-                    <input type="radio" name="installation__type" value="enterprise" id="enter">
+                    <input type="radio" name="Installation" value="enterprise" id="enter">
                   </label>
                   <label for="autre">Autre
-                    <input type="radio" name="installation__type" value="autre" id="autre">
+                    <input type="radio" name="Installation" value="autre" id="autre">
                   </label>
                </div>
             </div>

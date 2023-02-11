@@ -2,12 +2,21 @@
     --primarayBgColor:hsla(0, 0%, 0%, 0.50);
     --secondaryBgColor: rgba(255, 255, 0,0.45);
     --primarayFontColor:white;
-    --secondaryFontColor:rgba(31, 31, 31, 0.863);
+    --secondaryFontColor:rgb(0, 0, 0);
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+
+    font-size: 16px;
+}
+.whiteBgFontBlack{
+  background-color: rgba(255, 255, 255, 0.781);
+  color: var(--secondaryFontColor);
 }
 .formControl{
     width: 100%;
@@ -35,42 +44,53 @@
     justify-content: center;
     margin-bottom:7px;}
 #hero-slider .slick-active .slider-text {
+  width: calc(100% - 500px);
+  text-align: center;
+  text-transform: uppercase;
     animation: fadeInUp;
     animation-duration: 2s;
     animation-delay: 4s;
   }
-  #hero-slider .slider-text h2 {
+  #hero-slider .slider-text h1+span {
+    /* width: 60%; */
     color: var(--primarayFontColor);
-    font-size: 3em;
+    font-weight: 900;
+    /* font-size: 2em; */
    margin-bottom: 2.3rem;
    text-transform: uppercase !important;
   }
-  #hero-slider .slider-text h3 {
-   text-transform: capitalize !important;
-   font-size: 2.8rem;
+  #hero-slider .slider-text h2 {
+    font-weight: 700;
+   /* font-size: 1.8rem; */
    line-height: 1.8em;
   }
   .text-black {
     color: #2f2f47;
   }
-  .slider-text h2{
-    font-size: 1.8em;
-    font-weight: 500;
+  .slider-text h1{
+    font-size: 1.9em;
+    font-weight: 900;
+    padding: 8px;
   }
-  .slider-text h3{
-    font-size: 1.1em;
-    font-weight: 300;
+  .slider-text h2{
+    font-size: 1.7em;
+    font-weight: 700;
+    padding: 8px;
   }
   .taged-text {
     background-color:var(--primarayBgColor);
-    padding: 1.3rem;
+    /* padding: 1.3rem; */
+   
   }
   .tagged-color-text{
     color:var(--primarayBgColor);
+    
+
   }
   .taged-text2{
     background-color:var(--secondaryBgColor);
-    padding: 1.3rem;
+ padding: 10px;
+ width: 90%;
   }
   #hero-slider {
     color: var(--primarayFontColor);
@@ -78,7 +98,6 @@
   }
 
   #hero-slider .slider .slide-content{
-    width: 60%;
     position: absolute;
     bottom: 100px;
     left: 60px;
@@ -124,17 +143,17 @@
   .slider-container .form-container {
     color:var(--primarayFontColor);
     position: absolute;
-    width: 35%;
-    top: 50%;
+    width: 318px;
+    top: 18px;
     right: 60px;
-    transform: translateY(-50%);
     background-color: var(--primarayBgColor);
     border-radius: 18px;
     gap: 1em;
     padding: 2em 2em;
   }
   .slide-content{
-    width: 50% !important;
+    /* width: 50% !important; */
+    width: 100%;
   }
   #form-slider {
     display: flex;
@@ -198,6 +217,15 @@
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
   }
+  @media only screen and  (max-width: 400px)  {
+    body{
+        font-size: 11px;
+      }
+      .slider-container .form-container{
+      display: block;
+      margin: 0 auto;
+      }
+}
 
   /* End section faq 
   @media only screen and (max-width: 400px) {
