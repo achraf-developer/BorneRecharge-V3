@@ -200,15 +200,16 @@ body{
     min-width: 48px; */
     width: 100% !important;
     background: transparent;
-    border: 2px solid hsl(0, 0%, 100%);
+    border: 2px solid hsla(108, 100%, 49%, 1);
+    background-color:hsla(108, 100%, 49%, 1);
     font-weight: 400;
     font-size: 0.7em;
     color: hsl(0, 0%, 100%);
     transition: all 350ms 150ms ease-in-out;
   }
   .slider-container .form-container button:hover {
-    border-color: hsl(240, 20%, 23%);
-    background-color: hsl(240, 20%, 23%);
+    border-color: hsla(108, 100%, 49%, 0.719);
+    background-color:hsla(108, 100%, 49%, 0.719);
   }
   .slider-container .form-container input::placeholder {
     font-size: 0.7em;
