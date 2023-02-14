@@ -47,10 +47,8 @@ body{
   color:var(--primarayFontColor);
   position: absolute;
   width: 318px;
-  
   background-color: var(--primarayBgColor);
   border-radius: 18px;
- 
   padding: 2.5em 2em;
   top: 10% ;
   right: 10%;
@@ -76,7 +74,7 @@ body{
 #hero-slider .slick-active  .slider-text{
   animation: fadeInUp;
   animation-duration: 2s;
-  animation-delay: 0.4s;
+  animation-delay: 2s;
   }
   #hero-slider .slider{
     position: relative;
@@ -274,7 +272,7 @@ body{
  
   left:50% !important;
   width: 90% !important;
- top: 90%  !important;
+ top: 70%  !important;
   transform: translateX(-50%) !important;
   }
 }
