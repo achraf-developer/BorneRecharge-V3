@@ -150,12 +150,12 @@ body{
     height: 550px;
   }
   #hero-slider .slider1 {
-    background-image: url(../img/slide1.png), linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
+    background-image: url(../img/slide11.png), linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
     animation: fadeOut;
     animation-duration: 2s;
   }
   #hero-slider .slider2 {
-    background-image: url(../img/slide2.png);
+    background-image: url(../img/slide22.png);
   }
   
   #hero-slider .slick-prev,
