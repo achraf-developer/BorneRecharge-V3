@@ -307,7 +307,7 @@ body{
 }
 
 .bg-map{
-  height:308px ;  
+  height:400px ;  
   background-image: url(../img/map.png);
   background-repeat:no-repeat;
   background-position: center center;
@@ -315,7 +315,7 @@ body{
 }
 #subvention div{
   width: 100%;
-  padding: 130px;
+  padding: 70px;
   display: flex;
   align-items: center;
 }
