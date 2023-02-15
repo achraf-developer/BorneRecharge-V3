@@ -277,7 +277,7 @@ body{
 }
 /* Start Section Subvention */
 #subvention{
-  padding: 3em 0;
+  padding: 3em 3em;
   height:   auto;
   position: relative;
   display: flex;
@@ -299,7 +299,6 @@ body{
   background-size: cover;
   z-index: -1;
 }
-.
 #subvention--form {
   width: 50%;
 }
@@ -326,9 +325,9 @@ body{
   text-align: center;
 }
 #subvention--form input ,#subvention--form label{
-display: block;
-margin-bottom: 14px;
-width: 100%;
+  display: block;
+  margin-bottom: 14px;
+  width: 100%;
 }
 #subvention--form label>select{
   width: 100%;
