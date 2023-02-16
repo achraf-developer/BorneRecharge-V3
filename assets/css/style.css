@@ -29,7 +29,6 @@ body{
 }
 .slider--section{
   width: 100%;
-  height: 600px;
 }
 .slider-container{
   width: 100%;
@@ -320,7 +319,7 @@ body{
   align-items: center;
 }
 #subvention--form h1{
-  font-size: 1.7em;
+  font-size: 1.4em;
   font-weight: 700;
   text-align: center;
 }
@@ -334,8 +333,53 @@ body{
   display: block;
   margin-top: 7px !important; 
 }
-#subvention--form button{
+
+.btn{
   color: white;
   width: 100%;
   background-color: rgba(26, 90, 0, 1);
+}
+#send--tech{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#send--tech .form--tech{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.form--tech form{
+  width: 300px;
+}
+.form--tech form h1{
+  font-size: 1.2em;
+  color: black;
+  text-align: center;
+}
+#send--tech .form--tech input,#send--tech .form--tech button{
+  margin: 7px 15px;
+  width: 100%;
+  display: block;
+}
+#send--tech .form--tech select{
+  padding: 7px;
+  margin: 0;
+}
+#send--tech .form-tech-img{
+  width: 50%;
+  display: inline-block;
+}
+#send--tech .form-tech-img img{
+  width: 100%;
+  height: auto;
+
+}
+#send--tech > div.form--tech > form > div{
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
